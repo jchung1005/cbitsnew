@@ -1,0 +1,8 @@
+#!/bin/sh
+LD_LIBRARY_PATH="/Users/jeaniechung/projects/cbits/common/lib:$LD_LIBRARY_PATH"
+DYLD_LIBRARY_PATH="/Users/jeaniechung/projects/cbits/common/lib:$DYLD_LIBRARY_PATH"
+CURL_CA_BUNDLE="/Users/jeaniechung/projects/cbits/common/openssl/certs/curl-ca-bundle.crt"
+export LD_LIBRARY_PATH
+export DYLD_LIBRARY_PATH
+export CURL_CA_BUNDLE
+exec /Users/jeaniechung/projects/cbits/common/bin/curl.bin "$@"

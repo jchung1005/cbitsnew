@@ -1,0 +1,5 @@
+#!/bin/sh
+
+. /Users/jeaniechung/projects/cbits/scripts/setenv.sh
+
+exec /Users/jeaniechung/projects/cbits/php/sbin/.php-fpm.bin -y /Users/jeaniechung/projects/cbits/php/etc/php-fpm.conf -p /Users/jeaniechung/projects/cbits/php/var/ -c /Users/jeaniechung/projects/cbits/php/etc/php.ini "$@"

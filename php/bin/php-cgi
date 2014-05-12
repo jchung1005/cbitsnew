@@ -1,0 +1,7 @@
+#!/bin/sh
+PHPRC=/Users/jeaniechung/projects/cbits/php/etc
+export PHPRC
+PHP_PEAR_SYSCONF_DIR=/Users/jeaniechung/projects/cbits/php/etc
+export PHP_PEAR_SYSCONF_DIR
+. /Users/jeaniechung/projects/cbits/php/../scripts/setenv.sh
+exec /Users/jeaniechung/projects/cbits/php/bin/php-cgi.bin "$@"

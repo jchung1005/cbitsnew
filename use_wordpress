@@ -1,0 +1,6 @@
+#!/bin/sh
+
+PATH="/Users/jeaniechung/projects/cbits/varnish/bin:/Users/jeaniechung/projects/cbits/sqlite/bin:/Users/jeaniechung/projects/cbits/php/bin:/Users/jeaniechung/projects/cbits/mysql/bin:/Users/jeaniechung/projects/cbits/apache2/bin:/Users/jeaniechung/projects/cbits/common/bin:$PATH"
+
+exec /bin/bash --noprofile --norc
+                    

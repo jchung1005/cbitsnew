@@ -1,0 +1,28 @@
+[Mon Apr 21 10:55:17.433936 2014] [ssl:warn] [pid 2678] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
+[Mon Apr 21 10:55:17.468269 2014] [ssl:warn] [pid 2679] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
+[Mon Apr 21 10:55:17.468433 2014] [lbmethod_heartbeat:notice] [pid 2679] AH02282: No slotmem from mod_heartmonitor
+[Mon Apr 21 10:55:17.470083 2014] [mpm_prefork:notice] [pid 2679] AH00163: Apache/2.4.9 (Unix) PHP/5.4.26 OpenSSL/1.0.1g configured -- resuming normal operations
+[Mon Apr 21 10:55:17.470125 2014] [core:notice] [pid 2679] AH00094: Command line: '/Users/jeaniechung/projects/cbits/apache2/bin/httpd -f /Users/jeaniechung/projects/cbits/apache2/conf/httpd.conf'
+[Mon Apr 21 10:55:20.718571 2014] [mpm_prefork:notice] [pid 2679] AH00169: caught SIGTERM, shutting down
+[Mon Apr 21 10:55:24.854419 2014] [ssl:warn] [pid 2704] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
+[Mon Apr 21 10:55:24.888303 2014] [ssl:warn] [pid 2705] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
+[Mon Apr 21 10:55:24.888456 2014] [lbmethod_heartbeat:notice] [pid 2705] AH02282: No slotmem from mod_heartmonitor
+[Mon Apr 21 10:55:24.890270 2014] [mpm_prefork:notice] [pid 2705] AH00163: Apache/2.4.9 (Unix) PHP/5.4.26 OpenSSL/1.0.1g configured -- resuming normal operations
+[Mon Apr 21 10:55:24.890308 2014] [core:notice] [pid 2705] AH00094: Command line: '/Users/jeaniechung/projects/cbits/apache2/bin/httpd -f /Users/jeaniechung/projects/cbits/apache2/conf/httpd.conf'
+[Mon Apr 21 10:55:32.304572 2014] [mpm_prefork:notice] [pid 2705] AH00169: caught SIGTERM, shutting down
+[Mon Apr 21 10:55:36.445559 2014] [ssl:warn] [pid 2742] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
+[Mon Apr 21 10:55:36.481086 2014] [ssl:warn] [pid 2743] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
+[Mon Apr 21 10:55:36.481251 2014] [lbmethod_heartbeat:notice] [pid 2743] AH02282: No slotmem from mod_heartmonitor
+[Mon Apr 21 10:55:36.482833 2014] [mpm_prefork:notice] [pid 2743] AH00163: Apache/2.4.9 (Unix) PHP/5.4.26 OpenSSL/1.0.1g configured -- resuming normal operations
+[Mon Apr 21 10:55:36.482870 2014] [core:notice] [pid 2743] AH00094: Command line: '/Users/jeaniechung/projects/cbits/apache2/bin/httpd -f /Users/jeaniechung/projects/cbits/apache2/conf/httpd.conf'
+[Wed Apr 23 13:51:39.796924 2014] [mpm_prefork:notice] [pid 2743] AH00169: caught SIGTERM, shutting down
+[Mon May 05 10:26:52.769660 2014] [ssl:warn] [pid 5171] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 05 10:26:52.872177 2014] [ssl:warn] [pid 5172] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 05 10:26:52.872443 2014] [lbmethod_heartbeat:notice] [pid 5172] AH02282: No slotmem from mod_heartmonitor
+[Mon May 05 10:26:52.874586 2014] [mpm_prefork:notice] [pid 5172] AH00163: Apache/2.4.9 (Unix) PHP/5.4.26 OpenSSL/1.0.1g configured -- resuming normal operations
+[Mon May 05 10:26:52.874614 2014] [core:notice] [pid 5172] AH00094: Command line: '/Users/jeaniechung/projects/cbits/apache2/bin/httpd -f /Users/jeaniechung/projects/cbits/apache2/conf/httpd.conf'
+[Tue May 06 16:51:41.232458 2014] [:error] [pid 31616] [client 127.0.0.1:51283] PHP Parse error:  syntax error, unexpected 'main' (T_STRING) in /Users/jeaniechung/projects/cbits/apps/wordpress/htdocs/wp-content/themes/simple/header.php on line 94, referer: http://127.0.0.1:8080/wordpress/wp-admin/post.php?post=2&action=edit&message=1
+[Tue May 06 16:51:43.971429 2014] [:error] [pid 30277] [client 127.0.0.1:51284] PHP Parse error:  syntax error, unexpected 'main' (T_STRING) in /Users/jeaniechung/projects/cbits/apps/wordpress/htdocs/wp-content/themes/simple/header.php on line 94, referer: http://127.0.0.1:8080/wordpress/wp-admin/post.php?post=2&action=edit&message=1
+sh: /usr/bin/sendmail: No such file or directory
+[Mon May 12 11:34:08.276183 2014] [:error] [pid 62899] [client ::1:61865] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 for query SELECT * FROM ; made by activate_plugin, do_action('activate_seo-rank-reporter/seo-rank-reporter.php'), call_user_func_array, seoRankReporterInstall, referer: http://localhost:8080/wordpress/wp-admin/update.php?action=install-plugin&plugin=seo-rank-reporter&_wpnonce=5682d13094
+[Mon May 12 12:20:29.965937 2014] [mpm_prefork:notice] [pid 5172] AH00169: caught SIGTERM, shutting down

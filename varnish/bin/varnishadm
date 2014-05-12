@@ -1,0 +1,5 @@
+#!/bin/sh
+
+. /Users/jeaniechung/projects/cbits/scripts/setenv.sh
+
+exec /Users/jeaniechung/projects/cbits/varnish/bin/.varnishadm.bin -n /Users/jeaniechung/projects/cbits/varnish/var/varnish "$@"

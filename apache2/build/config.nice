@@ -1,0 +1,34 @@
+#! /bin/sh
+#
+# Created by configure
+
+CC="gcc"; export CC
+CFLAGS="-I/Users/jeaniechung/projects/cbits/common/include -arch x86_64"; export CFLAGS
+CPPFLAGS="-I/Users/jeaniechung/projects/cbits/common/include"; export CPPFLAGS
+LDFLAGS="-L/Users/jeaniechung/projects/cbits/common/lib -liconv"; export LDFLAGS
+"./configure" \
+"--prefix=/Users/jeaniechung/projects/cbits/apache2" \
+"--enable-so" \
+"--enable-mods-shared=most" \
+"--disable-auth_dbm" \
+"--without-berkeley-db" \
+"--enable-deflate" \
+"--enable-ssl" \
+"--with-ssl=/Users/jeaniechung/projects/cbits/common" \
+"--enable-proxy" \
+"--enable-proxy-http" \
+"--enable-proxy-balancer" \
+"--enable-rewrite" \
+"--with-ldap" \
+"--enable-authnz-ldap" \
+"--enable-ldap" \
+"--with-apr=/Users/jeaniechung/projects/cbits/common/bin/apr-1-config" \
+"--with-apu=/Users/jeaniechung/projects/cbits/common/bin/apr-1-config" \
+"--with-pcre=/Users/jeaniechung/projects/cbits/common/bin/pcre-config" \
+"--enable-mpms-shared=all" \
+"--with-mpm=prefork" \
+"CC=gcc" \
+"CFLAGS=-I/Users/jeaniechung/projects/cbits/common/include -arch x86_64" \
+"LDFLAGS=-L/Users/jeaniechung/projects/cbits/common/lib -liconv" \
+"CPPFLAGS=-I/Users/jeaniechung/projects/cbits/common/include" \
+"$@"

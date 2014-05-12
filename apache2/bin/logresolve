@@ -1,0 +1,3 @@
+#!/bin/sh
+. /Users/jeaniechung/projects/cbits/apache2/bin/envvars
+exec /Users/jeaniechung/projects/cbits/apache2/bin/logresolve.bin "$@"
